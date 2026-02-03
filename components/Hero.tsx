@@ -13,18 +13,18 @@ const Hero = () => {
             <div className="absolute top-[-20%] left-0 h-[500px] w-[500px] rounded-full bg-purple-600/20 blur-[100px]" />
             <div className="absolute bottom-[-20%] right-0 h-[500px] w-[500px] rounded-full bg-blue-600/20 blur-[100px]" />
 
-            <div className="z-10 flex max-w-[800px] flex-col items-center text-center">
-               
+            <div className="z-10 flex max-w-5xl flex-col items-center text-center px-4">
+
 
                 <motion.h1
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="font-display text-5xl font-bold leading-tight tracking-tight text-white sm:text-7xl md:text-8xl"
+                    className="font-display text-4xl font-bold leading-tight tracking-tight text-white sm:text-6xl md:text-8xl"
                 >
                     Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Experiences</span>
                     <br />
-                    Not Just Websites
+                    <span className="whitespace-nowrap">Not Just Websites</span>
                 </motion.h1>
 
                 <motion.p
